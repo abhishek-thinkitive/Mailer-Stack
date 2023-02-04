@@ -8,19 +8,19 @@
     "net6.0": []
   },
   "packageFolders": {
-    "C:\\Users\\abhishek.chidrawar\\.nuget\\packages\\": {}
+    "C:\\Users\\LNV-120\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Git\\ASPNET MVC\\Mailer-Stack\\MailerStackWeb\\MailerStackWeb.csproj",
+      "projectUniqueName": "C:\\Users\\LNV-120\\Thinkathon\\Mailer-Stack\\MailerStackWeb\\MailerStackWeb.csproj",
       "projectName": "MailerStackWeb",
-      "projectPath": "D:\\Git\\ASPNET MVC\\Mailer-Stack\\MailerStackWeb\\MailerStackWeb.csproj",
-      "packagesPath": "C:\\Users\\abhishek.chidrawar\\.nuget\\packages\\",
-      "outputPath": "D:\\Git\\ASPNET MVC\\Mailer-Stack\\MailerStackWeb\\obj\\",
+      "projectPath": "C:\\Users\\LNV-120\\Thinkathon\\Mailer-Stack\\MailerStackWeb\\MailerStackWeb.csproj",
+      "packagesPath": "C:\\Users\\LNV-120\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\LNV-120\\Thinkathon\\Mailer-Stack\\MailerStackWeb\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\abhishek.chidrawar\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\LNV-120\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
