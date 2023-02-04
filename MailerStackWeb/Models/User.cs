@@ -1,11 +1,12 @@
 ﻿using Newtonsoft.Json;
+using System.ComponentModel;
 
 namespace MailerStackWeb.Models
 {
-   
+    public class User
+    {
         // Root myDeserializedClass = JsonConvert.DeserializeObject<Root>(myJsonResponse);
-        public class User
-        {
+        
             [JsonProperty("object")]
             public string Object { get; set; }
 
@@ -14,7 +15,7 @@ namespace MailerStackWeb.Models
 
             [JsonProperty("teamID")]
             public int TeamID { get; set; }
-
+        [DefaultValue("ABC")]
             [JsonProperty("teamName")]
             public string TeamName { get; set; }
 
@@ -26,8 +27,10 @@ namespace MailerStackWeb.Models
 
             [JsonProperty("emailAddress")]
             public string EmailAddress { get; set; }
+        [JsonProperty("Password")]
+        public string? Password { get; set; }
 
-            [JsonProperty("fullName")]
+        [JsonProperty("fullName")]
             public string FullName { get; set; }
 
             [JsonProperty("first")]
@@ -38,13 +41,11 @@ namespace MailerStackWeb.Models
 
             [JsonProperty("teamBlockedDate")]
             public DateTime TeamBlockedDate { get; set; }
-
-            [JsonProperty("createdAt")]
-            public DateTime createdAt { get; set; }
-
-            [JsonProperty("updatedAt")]
-            public DateTime updatedAt { get; set; }
-        }
+        [JsonProperty("createdAt")]
+        public DateTime createdAt { get; set; }
+        [JsonProperty("updatedAt")]
+        public DateTime updatedAt { get; set; }
+    }
 
 
     }
