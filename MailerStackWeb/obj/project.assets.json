@@ -8,19 +8,27 @@
     "net6.0": []
   },
   "packageFolders": {
-    "C:\\Users\\abhishek.chidrawar\\.nuget\\packages\\": {}
+    "C:\\Users\\haridas.dhulgande\\.nuget\\packages\\": {},
+    "C:\\Program Files\\DevExpress 22.2\\Components\\Offline Packages": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Git\\ASPNET MVC\\Mailer-Stack\\MailerStackWeb\\MailerStackWeb.csproj",
+      "projectUniqueName": "C:\\Users\\haridas.dhulgande\\Source\\Repos\\Mailer-Stack\\MailerStackWeb\\MailerStackWeb.csproj",
       "projectName": "MailerStackWeb",
-      "projectPath": "D:\\Git\\ASPNET MVC\\Mailer-Stack\\MailerStackWeb\\MailerStackWeb.csproj",
-      "packagesPath": "C:\\Users\\abhishek.chidrawar\\.nuget\\packages\\",
-      "outputPath": "D:\\Git\\ASPNET MVC\\Mailer-Stack\\MailerStackWeb\\obj\\",
+      "projectPath": "C:\\Users\\haridas.dhulgande\\Source\\Repos\\Mailer-Stack\\MailerStackWeb\\MailerStackWeb.csproj",
+      "packagesPath": "C:\\Users\\haridas.dhulgande\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\haridas.dhulgande\\Source\\Repos\\Mailer-Stack\\MailerStackWeb\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files\\DevExpress 22.2\\Components\\Offline Packages",
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\abhishek.chidrawar\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\haridas.dhulgande\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 22.2.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -28,6 +36,7 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\DevExpress 22.2\\Components\\System\\Components\\Packages": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -64,7 +73,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
       }
     }
   }
