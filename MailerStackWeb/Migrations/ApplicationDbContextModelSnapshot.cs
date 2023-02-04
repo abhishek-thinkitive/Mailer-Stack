@@ -1288,6 +1288,9 @@ namespace MailerStackWeb.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<string>("Password")
+                        .HasColumnType("nvarchar(max)");
+
                     b.Property<DateTime>("TeamBlockedDate")
                         .HasColumnType("datetime2");
 
