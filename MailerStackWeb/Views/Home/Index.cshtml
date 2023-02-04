@@ -2,7 +2,103 @@
     ViewData["Title"] = "Home Page";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+<style>
+    body {
+  margin: 0;
+  font-family: "Lato", sans-serif;
+}
+
+div a:hover{
+    background-color: #04AA6D;
+    color: white;
+}
+.sidebar {
+  margin: 0;
+  padding: 0;
+  width: 200px;
+  background-color: #f1f1f1;
+  position: fixed;
+  height: 100%;
+  overflow: auto;
+}
+
+.sidebar a {
+  display: block;
+  color: black;
+  padding: 16px;
+  text-decoration: none;
+}
+ 
+.sidebar a.active {
+  background-color: #04AA6D;
+  color: white;
+}
+
+.sidebar a:hover:not(.active) {
+                background-color: #04AA6D;
+  color: white;
+}
+
+div.content {
+  margin-left: 200px;
+  padding: 1px 16px;
+  height: 1000px;
+}
+div a i{
+    display:inline-flex;
+}
+</style>
+
+<div class="sidebar">
+    <a>
+        <span class="material-symbols-outlined">
+            home
+        </span> Dashboard
+    </a>
+    <a href="#news">
+        <span class="material-symbols-outlined">
+            campaign
+        </span> Campaign
+    </a>
+    <a href="#contact">
+        <span class="material-symbols-outlined">
+            group
+        </span> Prospects
+    </a>
+    <a href="#about">
+        <span class="material-symbols-outlined">
+            mail
+        </span> Mail accounts
+    </a>
+    <a href="#about">
+        <span class="material-symbols-outlined">
+            team_dashboard
+        </span> Team Settings
+    </a>
+    <a href="#about">
+        <span class="material-symbols-outlined">
+            extension
+        </span>Extension
+    </a>
+    <a href="#about">
+        <span class="material-symbols-outlined">
+            unsubscribe
+        </span>Unsubscribes
+    </a>
+</div>
+
+<div>
+    <h1 class="text-center">Welcome to MailStack</h1>
+    <h5 class="text-center text-secondary ">A Simple Solution for Email Outreach</h5>
+    <div class="mx-1 my-5">
+        <form method="post">
+            <a href="" class="btn btn-primary">Campaign Send</a>
+        </form>
+            <button class="btn btn-primary">Send Email
+            </button>
+</div>
+
+<!-- Page content -->
+<div class="content">
+    
 </div>
