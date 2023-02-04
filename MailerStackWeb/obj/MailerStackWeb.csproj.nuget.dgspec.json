@@ -11,7 +11,7 @@
         "projectName": "MailerStackWeb",
         "projectPath": "C:\\Users\\haridas.dhulgande\\source\\repos\\Mailer-Stack\\MailerStackWeb\\MailerStackWeb.csproj",
         "packagesPath": "C:\\Users\\haridas.dhulgande\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\haridas.dhulgande\\Source\\Repos\\Mailer-Stack\\MailerStackWeb\\obj\\",
+        "outputPath": "C:\\Users\\haridas.dhulgande\\source\\repos\\Mailer-Stack\\MailerStackWeb\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\DevExpress 22.2\\Components\\Offline Packages",
@@ -46,6 +46,26 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.2, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.2, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
