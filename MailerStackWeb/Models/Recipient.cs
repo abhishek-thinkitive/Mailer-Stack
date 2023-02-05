@@ -16,8 +16,7 @@ namespace MailerStackWeb.Models
 
         public class Recipient
         {
-            [JsonProperty("object")]
-        
+            [JsonProperty("object")] 
             public string Object { get; set; }
 
             [JsonProperty("id")]
@@ -46,12 +45,12 @@ namespace MailerStackWeb.Models
             public Fields Fields { get; set; }
 
 
-        [JsonProperty("createdAt")]
-        public DateTime CreatedAt { get; set; }
+            [JsonProperty("createdAt")]
+            public DateTime CreatedAt { get; set; }
 
-        [JsonProperty("updatedAt")]
-        public DateTime UpdatedAt { get; set; }
-    }
+            [JsonProperty("updatedAt")]
+            public DateTime UpdatedAt { get; set; }
+        }
 
 
     }
