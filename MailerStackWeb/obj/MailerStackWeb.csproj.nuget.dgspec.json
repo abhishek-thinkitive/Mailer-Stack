@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Git\\ASPNET MVC\\Mailer-Stack\\MailerStackWeb\\MailerStackWeb.csproj": {}
+    "D:\\my projects\\hackathon\\Mailer-Stack\\MailerStackWeb\\MailerStackWeb.csproj": {}
   },
   "projects": {
-    "D:\\Git\\ASPNET MVC\\Mailer-Stack\\MailerStackWeb\\MailerStackWeb.csproj": {
+    "D:\\my projects\\hackathon\\Mailer-Stack\\MailerStackWeb\\MailerStackWeb.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Git\\ASPNET MVC\\Mailer-Stack\\MailerStackWeb\\MailerStackWeb.csproj",
+        "projectUniqueName": "D:\\my projects\\hackathon\\Mailer-Stack\\MailerStackWeb\\MailerStackWeb.csproj",
         "projectName": "MailerStackWeb",
-        "projectPath": "D:\\Git\\ASPNET MVC\\Mailer-Stack\\MailerStackWeb\\MailerStackWeb.csproj",
-        "packagesPath": "C:\\Users\\abhishek.chidrawar\\.nuget\\packages\\",
-        "outputPath": "D:\\Git\\ASPNET MVC\\Mailer-Stack\\MailerStackWeb\\obj\\",
+        "projectPath": "D:\\my projects\\hackathon\\Mailer-Stack\\MailerStackWeb\\MailerStackWeb.csproj",
+        "packagesPath": "C:\\Users\\lnv-135\\.nuget\\packages\\",
+        "outputPath": "D:\\my projects\\hackathon\\Mailer-Stack\\MailerStackWeb\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\abhishek.chidrawar\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\lnv-135\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,6 +26,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -78,7 +83,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     }

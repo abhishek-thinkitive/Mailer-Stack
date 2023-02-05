@@ -13,8 +13,7 @@ namespace MailerStackWeb.Data
             }
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-            modelBuilder.Entity<Recipient>()
-                .HasNoKey();
+
         }
         public DbSet<User> User { get; set; }
         public DbSet<AddedRecipients> AddedRecipients { get; set; }
