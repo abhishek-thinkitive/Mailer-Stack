@@ -9,61 +9,61 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = MailerStackWeb
 build_property.RootNamespace = MailerStackWeb
-build_property.ProjectDir = D:\my projects\hackathon\Mailer-Stack\MailerStackWeb\
+build_property.ProjectDir = D:\Git\ASPNET MVC\Mailer-Stack\MailerStackWeb\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = D:\my projects\hackathon\Mailer-Stack\MailerStackWeb
+build_property.MSBuildProjectDirectory = D:\Git\ASPNET MVC\Mailer-Stack\MailerStackWeb
 build_property._RazorSourceGeneratorDebug = 
 
-[D:/my projects/hackathon/Mailer-Stack/MailerStackWeb/Views/Home/Index.cshtml]
+[D:/Git/ASPNET MVC/Mailer-Stack/MailerStackWeb/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/my projects/hackathon/Mailer-Stack/MailerStackWeb/Views/Home/Privacy.cshtml]
+[D:/Git/ASPNET MVC/Mailer-Stack/MailerStackWeb/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/my projects/hackathon/Mailer-Stack/MailerStackWeb/Views/Shared/Error.cshtml]
+[D:/Git/ASPNET MVC/Mailer-Stack/MailerStackWeb/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/my projects/hackathon/Mailer-Stack/MailerStackWeb/Views/Shared/_ValidationScriptsPartial.cshtml]
+[D:/Git/ASPNET MVC/Mailer-Stack/MailerStackWeb/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/my projects/hackathon/Mailer-Stack/MailerStackWeb/Views/Users/Create.cshtml]
+[D:/Git/ASPNET MVC/Mailer-Stack/MailerStackWeb/Views/Users/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlcnNcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/my projects/hackathon/Mailer-Stack/MailerStackWeb/Views/Users/Delete.cshtml]
+[D:/Git/ASPNET MVC/Mailer-Stack/MailerStackWeb/Views/Users/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlcnNcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/my projects/hackathon/Mailer-Stack/MailerStackWeb/Views/Users/Details.cshtml]
+[D:/Git/ASPNET MVC/Mailer-Stack/MailerStackWeb/Views/Users/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlcnNcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/my projects/hackathon/Mailer-Stack/MailerStackWeb/Views/Users/Edit.cshtml]
+[D:/Git/ASPNET MVC/Mailer-Stack/MailerStackWeb/Views/Users/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlcnNcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/my projects/hackathon/Mailer-Stack/MailerStackWeb/Views/Users/Index.cshtml]
+[D:/Git/ASPNET MVC/Mailer-Stack/MailerStackWeb/Views/Users/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlcnNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/my projects/hackathon/Mailer-Stack/MailerStackWeb/Views/Users/Login.cshtml]
+[D:/Git/ASPNET MVC/Mailer-Stack/MailerStackWeb/Views/Users/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlcnNcTG9naW4uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/my projects/hackathon/Mailer-Stack/MailerStackWeb/Views/_ViewImports.cshtml]
+[D:/Git/ASPNET MVC/Mailer-Stack/MailerStackWeb/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/my projects/hackathon/Mailer-Stack/MailerStackWeb/Views/_ViewStart.cshtml]
+[D:/Git/ASPNET MVC/Mailer-Stack/MailerStackWeb/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/my projects/hackathon/Mailer-Stack/MailerStackWeb/Views/Shared/_Layout.cshtml]
+[D:/Git/ASPNET MVC/Mailer-Stack/MailerStackWeb/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-ogo6t0igsb
