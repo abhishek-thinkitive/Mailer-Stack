@@ -50,7 +50,7 @@ div a i{
 </style>
 
 <div class="sidebar">
-    <a>
+    <a asp-controller="Home" asp-action="Dashboard">
         <span class="material-symbols-outlined">
             home
         </span> Dashboard
@@ -60,17 +60,17 @@ div a i{
             campaign
         </span> Campaign
     </a>
-    <a href="#contact">
+    @*<a href="#contact">
         <span class="material-symbols-outlined">
             group
         </span> Prospects
-    </a>
+    </a>*@
     <a href="#about">
         <span class="material-symbols-outlined">
             mail
         </span> Mail accounts
     </a>
-    <a href="#about">
+   @* <a href="#about">
         <span class="material-symbols-outlined">
             team_dashboard
         </span> Team Settings
@@ -84,10 +84,9 @@ div a i{
         <span class="material-symbols-outlined">
             unsubscribe
         </span>Unsubscribes
-    </a>
+    </a>*@
 </div>
 
-<div>
     <h1 class="text-center">Welcome to MailStack</h1>
     <h5 class="text-center text-secondary ">A Simple Solution for Email Outreach</h5>
     <div class="mx-1 my-5">

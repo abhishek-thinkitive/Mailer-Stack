@@ -13,11 +13,7 @@ namespace MailerStackWeb.Data
             }
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-<<<<<<< Updated upstream
 
-=======
-            
->>>>>>> Stashed changes
         }
         public DbSet<User> User { get; set; }
         public DbSet<AddedRecipients> AddedRecipients { get; set; }
@@ -40,6 +36,7 @@ namespace MailerStackWeb.Data
         public DbSet<Sender> Sender { get; set; }
         public DbSet<SentMessage> SentMessage { get; set; }
         public DbSet<Team> Team { get; set; }
+        public DbSet<RecipientDetails> RecipientDetails { get; set; }
 
        
 

@@ -736,6 +736,12 @@ namespace MailerStackWeb.Migrations
 
             modelBuilder.Entity("MailerStackWeb.Models.Recipient", b =>
                 {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
                     b.Property<DateTime>("Created")
                         .HasColumnType("datetime2");
 
@@ -757,9 +763,6 @@ namespace MailerStackWeb.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<int>("Id")
-                        .HasColumnType("int");
-
                     b.Property<bool>("IsPaused")
                         .HasColumnType("bit");
 
@@ -774,9 +777,51 @@ namespace MailerStackWeb.Migrations
                     b.Property<DateTime>("UpdatedAt")
                         .HasColumnType("datetime2");
 
+                    b.HasKey("Id");
+
                     b.HasIndex("FieldsId");
 
                     b.ToTable("Recipient");
+                });
+
+            modelBuilder.Entity("MailerStackWeb.Models.RecipientDetails", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<string>("From")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Message")
+                        .IsRequired()
+                        .HasMaxLength(50)
+                        .HasColumnType("nvarchar(50)");
+
+                    b.Property<string>("Name")
+                        .IsRequired()
+                        .HasMaxLength(100)
+                        .HasColumnType("nvarchar(100)");
+
+                    b.Property<string>("Subject")
+                        .IsRequired()
+                        .HasMaxLength(100)
+                        .HasColumnType("nvarchar(100)");
+
+                    b.Property<string>("To")
+                        .IsRequired()
+                        .HasMaxLength(100)
+                        .HasColumnType("nvarchar(100)");
+
+                    b.Property<int>("UserId")
+                        .HasColumnType("int");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("RecipientDetails");
                 });
 
             modelBuilder.Entity("MailerStackWeb.Models.Reply", b =>
@@ -1286,6 +1331,9 @@ namespace MailerStackWeb.Migrations
 
                     b.Property<string>("Object")
                         .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Password")
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<DateTime>("TeamBlockedDate")

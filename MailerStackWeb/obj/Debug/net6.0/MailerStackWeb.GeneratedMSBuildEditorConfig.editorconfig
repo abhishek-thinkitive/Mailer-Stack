@@ -16,12 +16,24 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = D:\Git\ASPNET MVC\Mailer-Stack\MailerStackWeb
 build_property._RazorSourceGeneratorDebug = 
 
+[D:/Git/ASPNET MVC/Mailer-Stack/MailerStackWeb/Views/Home/Dashboard.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxEYXNoYm9hcmQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/Git/ASPNET MVC/Mailer-Stack/MailerStackWeb/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/Git/ASPNET MVC/Mailer-Stack/MailerStackWeb/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Git/ASPNET MVC/Mailer-Stack/MailerStackWeb/Views/MailGun/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFpbEd1blxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Git/ASPNET MVC/Mailer-Stack/MailerStackWeb/Views/MailGun/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFpbEd1blxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/Git/ASPNET MVC/Mailer-Stack/MailerStackWeb/Views/Shared/Error.cshtml]

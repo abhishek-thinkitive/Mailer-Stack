@@ -174,3 +174,4 @@ D:\my projects\hackathon\Mailer-Stack\MailerStackWeb\obj\Debug\net6.0\scopedcss\
 D:\my projects\hackathon\Mailer-Stack\MailerStackWeb\obj\Debug\net6.0\MailerStackWeb.csproj.CopyComplete
 D:\my projects\hackathon\Mailer-Stack\MailerStackWeb\obj\Debug\net6.0\MailerStackWeb.genruntimeconfig.cache
 D:\my projects\hackathon\Mailer-Stack\MailerStackWeb\obj\Debug\net6.0\ref\MailerStackWeb.dll
+D:\Git\ASPNET MVC\Mailer-Stack\MailerStackWeb\bin\Debug\net6.0\RestSharp.dll

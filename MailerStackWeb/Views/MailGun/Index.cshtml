@@ -1,0 +1,118 @@
+﻿@*@using RestSharp
+@using RestSharp.Authenticators
+@model IEnumerable<MailerStackWeb.Models.RecipientDetails> // Show List  data on view
+@{
+    ViewData["Title"] = "Index";
+}
+
+@functions {
+    public static RestResponse SendSimpleMessage()
+    {
+        List<string> usermails = new List<string>();
+        // usermails.Add("parmeshwar.nagre@thinkitive.com");
+        //  usermails.Add("anup.ghodake@thinkitive.com");
+        usermails.Add("haridas.dhulgande@thinkitive.com");
+
+
+        var baseUri = new Uri("https://api.mailgun.net/v3");
+        RestClient client = new RestClient(baseUri);
+        client.Authenticator = new HttpBasicAuthenticator("api","as");
+        RestRequest request = new RestRequest();
+        request.AddParameter("domain","fdhasd" , ParameterType.UrlSegment);
+        request.Resource = "{domain}/messages";
+        request.AddParameter("from",);
+        foreach (var i in usermails)
+            request.AddParameter("to", i);
+
+        //request.AddParameter("to", "haridas.dhulgande@thinkitive.com");
+        request.AddParameter("subject", "Introducing Our New Product Line!");
+        request.AddParameter("text", "Testing some Mailgun awesomness!");
+
+        //var res=  request.AddParameter("o:tracking", false);
+        // Console.WriteLine(res.ToString());
+        request.Method = Method.Post;
+        return client.Execute(request);
+    }
+}
+<select onclick="SendSimpleMessage()"></select>
+
+@section Scripts
+    {
+    <script>
+        function RazorFunction() {
+            $("button").html('@SendSimpleMessage()');
+        }
+    </script>
+}
+
+<div>
+    <table class="table table-striped table-bordered">
+        <thead>
+            <tr>
+                <th>
+                    @Html.DisplayNameFor(model => model.Id)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.UserId)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Name)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.To)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.From)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Subject)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Message)
+                </th>
+                <th>Send</th>
+                <th>User Action</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Id)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.UserId)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Name)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.To)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.From)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Subject)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Message)
+                    </td>
+                    <td>
+                        <button>Send</button>
+                    </td>
+                    <td>
+                        <button> Open</button>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
+
+<div>
+    <button>Send All</button>
+    @* <a class="btn btn-sm btn-success m-4" asp-controller="MailGun" OnClick="SendSimpleMessage()">Add New Client</a>
+</div>
+*@

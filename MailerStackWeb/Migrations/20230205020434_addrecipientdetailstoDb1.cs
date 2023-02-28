@@ -6,7 +6,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 namespace MailerStackWeb.Migrations
 {
     /// <inheritdoc />
-    public partial class addDbFirst : Migration
+    public partial class addrecipientdetailstoDb1 : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
@@ -275,6 +275,24 @@ namespace MailerStackWeb.Migrations
                 });
 
             migrationBuilder.CreateTable(
+                name: "RecipientDetails",
+                columns: table => new
+                {
+                    Id = table.Column<int>(type: "int", nullable: false)
+                        .Annotation("SqlServer:Identity", "1, 1"),
+                    UserId = table.Column<int>(type: "int", nullable: false),
+                    Name = table.Column<string>(type: "nvarchar(100)", maxLength: 100, nullable: false),
+                    To = table.Column<string>(type: "nvarchar(100)", maxLength: 100, nullable: false),
+                    From = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    Subject = table.Column<string>(type: "nvarchar(100)", maxLength: 100, nullable: false),
+                    Message = table.Column<string>(type: "nvarchar(50)", maxLength: 50, nullable: false)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_RecipientDetails", x => x.Id);
+                });
+
+            migrationBuilder.CreateTable(
                 name: "ReplyCampaign",
                 columns: table => new
                 {
@@ -403,6 +421,7 @@ namespace MailerStackWeb.Migrations
                     IsTeamAdmin = table.Column<bool>(type: "bit", nullable: false),
                     IsDisabled = table.Column<bool>(type: "bit", nullable: false),
                     EmailAddress = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    Password = table.Column<string>(type: "nvarchar(max)", nullable: true),
                     FullName = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     First = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     Last = table.Column<string>(type: "nvarchar(max)", nullable: false),
@@ -491,8 +510,9 @@ namespace MailerStackWeb.Migrations
                 name: "Recipient",
                 columns: table => new
                 {
+                    Id = table.Column<int>(type: "int", nullable: false)
+                        .Annotation("SqlServer:Identity", "1, 1"),
                     Object = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    Id = table.Column<int>(type: "int", nullable: false),
                     EmailAddress = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     FullName = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     First = table.Column<string>(type: "nvarchar(max)", nullable: false),
@@ -505,6 +525,7 @@ namespace MailerStackWeb.Migrations
                 },
                 constraints: table =>
                 {
+                    table.PrimaryKey("PK_Recipient", x => x.Id);
                     table.ForeignKey(
                         name: "FK_Recipient_Fields_FieldsId",
                         column: x => x.FieldsId,
@@ -1008,6 +1029,9 @@ namespace MailerStackWeb.Migrations
 
             migrationBuilder.DropTable(
                 name: "Recipient");
+
+            migrationBuilder.DropTable(
+                name: "RecipientDetails");
 
             migrationBuilder.DropTable(
                 name: "Reply");
