@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.4.33213.308
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MailerStackWeb", "MailerStackWeb\MailerStackWeb.csproj", "{CF81CD55-62C4-43D5-AAE1-23504449A012}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MailerStackWeb", "MailerStackWeb\MailerStackWeb.csproj", "{CF81CD55-62C4-43D5-AAE1-23504449A012}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestProject1", "TestProject1\TestProject1.csproj", "{2ACF93DD-4441-4759-9CCE-9BC4F10757E3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{CF81CD55-62C4-43D5-AAE1-23504449A012}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CF81CD55-62C4-43D5-AAE1-23504449A012}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CF81CD55-62C4-43D5-AAE1-23504449A012}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2ACF93DD-4441-4759-9CCE-9BC4F10757E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2ACF93DD-4441-4759-9CCE-9BC4F10757E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2ACF93DD-4441-4759-9CCE-9BC4F10757E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2ACF93DD-4441-4759-9CCE-9BC4F10757E3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
